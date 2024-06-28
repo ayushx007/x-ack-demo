@@ -1,0 +1,65 @@
+.header {
+  background-color: #020B05;
+  color: #fff;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Bruno Ace', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin: 0 15px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.nav-list li:hover {
+  color: #00f;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.auth-buttons span {
+  margin-left: 15px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.auth-buttons span:hover {
+  color: #00f;
+}
