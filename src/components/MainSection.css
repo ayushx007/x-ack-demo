@@ -37,8 +37,9 @@
 
 .start-button {
   position: relative;
-  padding: 10px 20px;
-  background-color: #00f;
+  padding: 10px 10px;
+  padding-bottom: 20px;
+  background: rgba(0, 128, 0, 0.2); 
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -48,6 +49,8 @@
   z-index: 2;
   margin-bottom: 100px;
   overflow: hidden;
+  backdrop-filter: blur(100px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .start-button:hover {
@@ -197,7 +200,7 @@
 .design-element {
   position: absolute;
   z-index: 1;
-  width: 300px; /* Adjust size as needed */
+  width: 300px;
   height: auto;
 }
 
